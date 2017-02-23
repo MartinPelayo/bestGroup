@@ -1,12 +1,5 @@
+
 'use strict';
-
-
-
-
-
-
-
-
 
 
 
@@ -20,6 +13,14 @@ var kilometer = 0;
 function mileToKilometer {
 var calculate = Math.floor()
 }
-
-
   return Math.floor(Math.random() * (max - min) ) + min;
+
+
+
+
+var inch;
+var centimeters;
+
+function inchToCm() {
+    
+}
