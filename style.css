@@ -1,0 +1,17 @@
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-size: 100px;
+}
+
+h2 {
+    color: limegreen;
+}
+
+select {
+    width: 100px;
+    color: red;
+}
+
+img {
+    display: inline-block;
+}
