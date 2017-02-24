@@ -27,13 +27,13 @@ function mileToKilometer() {
 function mileToKilometer() {
   var calculate = Math.floor();
   var someNumber = 8;
-  return Math.floor(Math.random() * someNumber;
+  return Math.floor(Math.random() * someNumber);
 }
 
 
-function mileToKilometer() {
-  var result = miles * kilometer;
-  return result;
+function messWithHeader() {
+  var header = document.getElementById('h1');
+  h1.textContent = 'What\'s up now, suckas?';
 }
 
 function inchToCm() {
@@ -47,4 +47,13 @@ function cmToInch() {
   var centimeter = e.options.e.selectedIndex.value;
   var inch = e.options.e.selectedIndex.value;
 }
+
+function messWithValues() {
+  var form = document.querySelector('form');
+
+  form.innerHTML = '<p>Hope you weren\'t expecting to see your form here!</p>';
+}
+
+messWithHeader();
+messWithValues();
 
