@@ -19,13 +19,15 @@ function mileToKilometer {
 function inchToCm() {
   //and what's the deal here?
   var e = document.getElementById('select');
-  var centimeters = e.options.e.selectedIndex.value;
+  var inch = e.options.e.selectedIndex.value;
+  var centimeter = 2.54 * inch;
 }
 
 function cmToInch() {
   //and how about this?
   var e = document.getElementById('select');
-  var inch = e.options.e.selectedIndex.value;
+  var centimeter = e.options.e.selectedIndex.value;
+  var inch = centimeter/2.54;
 }
 
-    
+ var getInch = event.target.select;   
