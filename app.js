@@ -3,7 +3,6 @@
 
 var miles = 0;
 var kilometer = 1.60934;
-
 var cat = document.getElementById('someID');
 var dog = document.createElement('SomeElement');
 var userInput = cat.appendChild(dog);
@@ -15,28 +14,28 @@ var getInch = event.target.select;
 //var userOutput = '';
 function mileToKilometer() {
   var cat = document.getElementById('someID');
-  cat.textContent = '';
   var userInput = cat.appendChild(dog);
+  cat.textContent = '';
   cat.textContent = '';
 }
 
 function mileToKilometer() {
-var miles = 0;
-var kilometer = 1.60934;
-
-function mileToKilometer() {  
-  var calculate = Math.floor();
-  return Math.floor(Math.random() * (max - min) ) + min;
+  var miles = 0;
+  var kilometer = 1.60934;
 }
-var cat = documet.getElementById('someID');
-var dog = document.createElement('SomeElement')
-var userInput = cat.appendChild(dog);
 
-function mileToKilometer() {  
+function mileToKilometer() {
+  var calculate = Math.floor();
+  var someNumber = 8;
+  return Math.floor(Math.random() * someNumber;
+}
+
+
+function mileToKilometer() {
   var result = miles * kilometer;
   return result;
 }
-  
+
 function inchToCm() {
   var e = document.getElementById('select');
   var inch = e.options.e.selectedIndex.value;
@@ -48,5 +47,4 @@ function cmToInch() {
   var centimeter = e.options.e.selectedIndex.value;
   var inch = e.options.e.selectedIndex.value;
 }
-  
-var getInch = event.target.select;   
+
