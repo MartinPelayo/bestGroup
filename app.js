@@ -16,7 +16,7 @@ function mileToKilometer() {
   var cat = document.getElementById('someID');
   var userInput = cat.appendChild(dog);
   cat.textContent = '';
-  cat.textContent = '';
+
 }
 
 function mileToKilometer() {
