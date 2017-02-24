@@ -18,6 +18,10 @@ function mileToKilometer() {
   cat.textContent = '';
   var userInput = cat.appendChild(dog);
   cat.textContent = '';
+
+  function getConversion() {
+    console.log('I am in the best group');
+  }
 }
 
 function mileToKilometer() {
