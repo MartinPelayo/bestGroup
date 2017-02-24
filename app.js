@@ -1,6 +1,11 @@
 'use strict';
 var miles = 0;
 var kilometer = 1.60934;
+
+var cat = document.getElementById('someID');
+var dog = document.createElement('SomeElement');
+//var userInput = cat.appendChild(dog);
+//var getInch = event.target.select;
 var parentElement = document.getElementById('someID');
 var newElement = document.createElement('SomeElement');
 var userInput = cat.appendChild(dog);
@@ -28,8 +33,8 @@ function mileToKilometer() {
 
 
 function messWithHeader() {
-  var header = document.getElementById('h1');
-  h1.textContent = 'What\'s up now, suckas?';
+  var header = document.querySelector('h1');
+  header.textContent = 'What\'s up now, suckas?';
 }
 
 function inchToCm() {
